@@ -5,3 +5,11 @@ function nomCognom(nom,cognom){
     console.log("cognom: "+cognom);
 }
 nomCognom("ahiram","rivas");
+
+//2.- Passa un valor per paràmetre i mostri de quin tipus és.
+
+function mostrarValor(valor){
+    console.log("El tipus de funcio es: "+typeof valor)
+}
+mostrarValor(1234)
+mostrarValor("hola")
