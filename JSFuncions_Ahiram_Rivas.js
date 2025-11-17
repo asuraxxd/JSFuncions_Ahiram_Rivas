@@ -97,5 +97,12 @@ const comprova30Anonima = function(a, b) {
 
 console.log(comprova30Anonima(10, 20));
 
+//10.- Passa’t dos valors, retorni cert o fals si el valor i el tipus de dades són el mateix.
+
+const mateixValorTipus = (a, b) => a === b;
+
+
+console.log(mateixValorTipus(5, 5));
+console.log(mateixValorTipus(5, "5"));
 
 
