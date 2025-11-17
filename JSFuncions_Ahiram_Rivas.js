@@ -33,4 +33,24 @@ function variableDentro() {
 }
 
 variableDentro();
-console.log("fora de la funcio:", variable)
+// console.log("fora de la funcio:", variable)
+
+//5.- Passa’t un String, retorni el número de vocals que té
+
+function comptaVocals(text) {
+
+    let comptador = 0;
+    const vocals = ["a", "e", "i", "o", "u"];
+
+    for (let lletra of text) {
+        if (vocals.includes(lletra)) {
+            comptador++;
+        }
+    }
+
+    return "El numero de vocals es: "+comptador;
+}
+
+
+console.log(comptaVocals("Hola que tal"));
+
