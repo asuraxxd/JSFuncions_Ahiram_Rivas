@@ -119,4 +119,13 @@ const aMinuscules = text => text.toLowerCase();
 console.log(aMinuscules("HOLA QUE TAL"));
 
 
+//13.- Passa’t dos valors, retorni el que no és null.
+
+const noNull = (a, b) => (a !== null ? a : b);
+
+
+console.log(noNull(null, 5));
+console.log(noNull(7, null));
+
+
 
