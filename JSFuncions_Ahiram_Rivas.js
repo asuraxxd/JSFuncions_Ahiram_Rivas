@@ -61,3 +61,17 @@ function sumaTres(a, b, c = 0) {
 }
 console.log("La suma de los tres numeros es: " + sumaTres(3,4,6))
 
+//7.- Ha de cridar la funció de l’exercici 3 i retornar el resultat de la funció de l’exercici 6.
+
+function mostraDataActual() {
+    return new Date();
+}
+
+function exercici7(a, b, c) {
+    mostraDataActual();
+    return sumaTres(a, b, c);
+}
+
+
+console.log(exercici7(2, 5));
+
