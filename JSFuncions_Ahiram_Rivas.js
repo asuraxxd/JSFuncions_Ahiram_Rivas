@@ -88,5 +88,14 @@ console.log(comprova30(10, 20));
 console.log(comprova30(15, 15));
 console.log(comprova30(7, 4));
 
+// 9.- Repeteix l’exercici anterior però com a funció anònima.
+
+const comprova30Anonima = function(a, b) {
+    return a === 30 || b === 30 || (a + b) === 30;
+};
+
+
+console.log(comprova30Anonima(10, 20));
+
 
 
