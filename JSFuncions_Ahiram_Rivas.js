@@ -109,7 +109,14 @@ console.log(mateixValorTipus(5, "5"));
 
 const arrelQuadrada = x => Number(Math.sqrt(x).toFixed(2));
 
-console.log(arrelQuadrada(10)); // 3.16
+console.log(arrelQuadrada(10));
+
+//12.- Passa’t un String, el retorni en minúscules.
+
+const aMinuscules = text => text.toLowerCase();
+
+
+console.log(aMinuscules("HOLA QUE TAL"));
 
 
 
