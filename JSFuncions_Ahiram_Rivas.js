@@ -48,9 +48,16 @@ function comptaVocals(text) {
         }
     }
 
-    return "El numero de vocals es: "+comptador;
+    return "El numero de vocals es: " + comptador;
 }
 
 
 console.log(comptaVocals("Hola que tal"));
+
+//6.- Passa 3 enters com a paràmetres (el tercer ha de tenir un valor per defecte) i retorni la suma dels tres.
+
+function sumaTres(a, b, c = 0) {
+    return a + b + c;
+}
+console.log("La suma de los tres numeros es: " + sumaTres(3,4,6))
 
