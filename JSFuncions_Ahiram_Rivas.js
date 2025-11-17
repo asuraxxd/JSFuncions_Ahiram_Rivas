@@ -59,7 +59,8 @@ console.log(comptaVocals("Hola que tal"));
 function sumaTres(a, b, c = 0) {
     return a + b + c;
 }
-console.log("La suma de los tres numeros es: " + sumaTres(3,4,6))
+
+console.log("La suma de los tres numeros es: " + sumaTres(3, 4, 6))
 
 //7.- Ha de cridar la funció de l’exercici 3 i retornar el resultat de la funció de l’exercici 6.
 
@@ -74,4 +75,18 @@ function exercici7(a, b, c) {
 
 
 console.log(exercici7(2, 5));
+
+//8.- Passa’t dos enters, retornar true si un d’ells és igual a 30 o si la seva suma és igual a 30.
+
+function comprova30(a, b) {
+    return a === 30 || b === 30 || (a + b) === 30;
+}
+
+
+console.log(comprova30(30, 5));
+console.log(comprova30(10, 20));
+console.log(comprova30(15, 15));
+console.log(comprova30(7, 4));
+
+
 
