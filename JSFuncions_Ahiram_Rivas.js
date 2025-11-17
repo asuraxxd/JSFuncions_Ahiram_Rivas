@@ -147,3 +147,9 @@ function dividir(frase, paraula) {
 
 
 console.log(dividir("Hola como estàs", "como"));
+
+//15.- Explica què fa la següent funció i fes-ne un cas de prova:
+
+const triple = x => x + x + x;
+
+console.log(triple(5));
