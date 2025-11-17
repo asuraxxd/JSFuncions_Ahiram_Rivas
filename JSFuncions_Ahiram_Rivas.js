@@ -128,4 +128,22 @@ console.log(noNull(null, 5));
 console.log(noNull(7, null));
 
 
+//14.- Defineix dos funcions:
 
+
+function posicio(frase, paraula) {
+    const index = frase.indexOf(paraula);
+    return frase.length - index;
+}
+
+console.log(posicio("Hola como estàs", "como"));
+
+
+
+function dividir(frase, paraula) {
+    const pos = posicio(frase, paraula);
+    return frase.slice(frase.length - pos);
+}
+
+
+console.log(dividir("Hola como estàs", "como"));
